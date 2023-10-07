@@ -1,0 +1,255 @@
+@media screen and (max-width: 991px) {
+  h3 {
+    font-size: 1.3rem;
+  }
+  .nav-toggle {
+    display: block;
+    margin-right: 30px;
+  }
+
+  .company-logo,
+  .nav-links {
+    position: absolute;
+    background-color: white;
+    left: -100%;
+    top: 100%;
+    width: 100%;
+    padding-block: 20px;
+    transition: 0.2s ease-in-out;
+  }
+  .nav-links.active {
+    left: 0;
+  }
+  .nav-links ul {
+    flex-direction: column;
+  }
+  .main-nav {
+    overflow: initial;
+    padding-block: 15px;
+  }
+  .example-cards {
+    gap: 20px;
+  }
+  .example-card {
+    height: auto;
+    width: calc(50% - 20px);
+  }
+
+  .big-feature-container {
+    flex-direction: column;
+  }
+
+  #imgerror {
+    flex-direction: column-reverse;
+  }
+
+  .company-section {
+    padding: 50px var(--padding-inline-section);
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .company-section-left {
+  }
+
+  .feacture-about-desc {
+    min-width: 40vw;
+  }
+
+  .feature-about-img img {
+    width: 600px;
+  }
+
+  .feature-img img {
+    width: 600px;
+  }
+  .about-feature-section {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .about-feature-container {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+
+  .about-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-left {
+    max-width: 100vw;
+    text-align: center;
+    padding-inline: 30px;
+    margin-top: 50px;
+  }
+}
+
+/* Medeium Devices */
+
+@media (max-width: 767px) {
+  .main-nav {
+    padding-block: 15px;
+  }
+
+  .header-section {
+    flex-direction: column-reverse;
+    padding-block: 0px;
+  }
+
+  .about-left {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-left {
+    max-width: 100vw;
+    text-align: center;
+    padding-inline: 30px;
+  }
+
+  .primary-button {
+    width: 100%;
+  }
+
+  .company-section {
+    padding: 50px var(--padding-inline-section);
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .card {
+    min-width: calc(50% - 10px);
+    padding: var(--padding-inline-section);
+  }
+  .big-feature-container {
+  }
+
+  .feacture-desc {
+    align-items: center;
+  }
+  .footer-col {
+    width: 50%;
+  }
+
+  .footer-container {
+    text-align: center;
+    gap: 40px;
+    flex-direction: column;
+  }
+
+  .company-section {
+    padding: 100px var(--padding-inline-section);
+  }
+
+  .big-feature-section h1 {
+    margin-block: 20px;
+  }
+  .big-feature-section {
+    padding-block: 10px;
+  }
+  .example-section {
+    margin: 50px var(--padding-inline-section);
+  }
+  .example-header-text {
+  }
+  .about-feature-container {
+    gap: 0px;
+  }
+  .about-right img {
+  }
+  .about-right {
+  }
+
+  .services-cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .services-card {
+    width: calc(100% - 10px);
+  }
+}
+
+/* MOBILE DEVICES */
+
+@media (max-width: 479px) {
+  :root {
+    --padding-inline-section: 15px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .main-nav {
+    padding-block: 10px;
+  }
+
+  .company-section {
+    padding: 100px var(--padding-inline-section);
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .card {
+    min-width: 100%;
+    margin-top: 20px;
+  }
+  .feacture-desc {
+    align-items: center;
+  }
+
+  .example-card {
+    width: 100%;
+    padding: 25px var(--padding-inline-section);
+  }
+
+  .example-section {
+    padding: var(--padding-inline-section);
+  }
+
+  .footer-col {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .services-card {
+  }
+
+  .services-area {
+    margin-block: 20px;
+  }
+  .services-header h2 {
+    margin-block: 0px;
+  }
+  .review-section {
+  }
+  .feature-about-img img{
+    width: 100%;
+  }
+  .feature-img img{
+    width: 100%;
+
+  }
+}
