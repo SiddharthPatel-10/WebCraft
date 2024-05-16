@@ -1,2 +1,2 @@
 # WebCraft
-First Freelancing Project
+Author: Siddharth Patel
